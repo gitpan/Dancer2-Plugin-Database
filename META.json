@@ -4,7 +4,7 @@
       "David Precious <davidp@preshweb.co.uk>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "ExtUtils::MakeMaker version 6.74, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "perl_5"
    ],
@@ -32,8 +32,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Dancer2" : "0.06",
-            "Dancer::Plugin::Database::Core" : "0",
+            "Dancer2" : "0.08",
+            "Dancer::Plugin::Database::Core" : "0.04",
             "Test::More" : "0"
          }
       }
@@ -48,5 +48,5 @@
          "url" : "https://github.com/bigpresh/Dancer-Plugin-Database"
       }
    },
-   "version" : "2.08"
+   "version" : "2.09"
 }

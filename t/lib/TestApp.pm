@@ -1,6 +1,6 @@
 package t::lib::TestApp;
 
-use Dancer2 ':syntax';
+use Dancer2;
 use Dancer2::Plugin::Database;
 no warnings 'uninitialized';
 
@@ -109,6 +109,11 @@ get '/quick_lookup/:name' => sub {
         'id');
 
     return $id;
+};
+
+get '/quick_count/:category' => sub {
+    my $row = database->quick_count('users', { category => params->{category} });
+    return $row;
 };
 
 get '/complex_where/:id' => sub {
