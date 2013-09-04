@@ -18,11 +18,11 @@ no_index:
     - t
     - inc
 requires:
-  Dancer2: 0.08
+  Dancer2: 0.09
   Dancer::Plugin::Database::Core: 0.04
   Test::More: 0
 resources:
   bugtracker: https://github.com/bigpresh/Dancer-Plugin-Database/issues
   homepage: https://github.com/bigpresh/Dancer-Plugin-Database/
   repository: https://github.com/bigpresh/Dancer-Plugin-Database
-version: 2.09
+version: 2.10
