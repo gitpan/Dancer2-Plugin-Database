@@ -24,7 +24,7 @@
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
             "HTTP::Request::Common" : "0",
-            "Plack::Test" : "1.0032",
+            "Plack" : "1.0032",
             "Test::More" : "0"
          }
       },
@@ -50,5 +50,5 @@
          "url" : "https://github.com/bigpresh/Dancer-Plugin-Database"
       }
    },
-   "version" : "2.11"
+   "version" : "2.12"
 }
